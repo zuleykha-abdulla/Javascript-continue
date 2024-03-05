@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--navbar start-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="parol.html">Parol</a></li>
+            <li><a href="lenght.html">Şərt operatoru</a></li>
+            <li><a href="select.html">Selekt</a></li>
+            <li><a href="reng.html">Rəng secimi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!----header bitdi-->
+    <section>
+      <div class="select">
+        <h2>Selekt</h2>
+        <br />
+        <p>
+          İndi isə form elementlərindən biri olan «select» elementinə baxaq.
+          Burada da sadəcə «value» xüsusiyyəti vasitəsilə seçilmiş dəyəri götürə
+          bilərik.
+        </p>
+      </div>
+      <br />
+      <select id="select" onchange="funksiya8();">
+        <option>Azerbaycan dili</option>
+        <option>Ingilis dili</option>
+        <option>Rus dili</option>
+      </select>
+      <br />
+      <br />
+      <div class="check">
+        <h2>Check box</h2>
+        <br />
+        <p>
+          İndi isə checkbox tipli input elementi ilə işləmək qaydasına baxaq.
+          Elementin seçilib-seçilmədiyini bilmək üçün checked xüsusiyyətindən
+          istifadə etməliyik. Əgər, checkbox tipli element seçilibsə, bu zaman x
+          dəyişəninə «true» qiyməti ötürülür. Əks halda isə x dəyişəninə «false»
+          qiyməti ötürülür. Buna görə də, elementi seçib düyməyə klik etsək, o
+          zaman, «true» qiyməti ekrana çıxacaq. Əks halda isə «false» qiyməti
+          çıxacaq.
+        </p>
+      </div>
+      <br />
+      <br />
+      <input type="checkbox" id="check" /><br />
+
+      <button type="button" onclick="funksiya9();">Tesdiqlə</button>
+      <br />
+      <br />
+      <input type="checkbox" id="check" /><br />
+
+      <button type="button" onclick="funksiya10();">Tesdiqlə</button>
+
+      <br />
+      <div class="sert">
+        <p>
+          Elementdən aldığımız qiyməti şərt operatoru ilə də yoxlaya bilərik.
+        </p>
+      </div>
+      <br />
+      <input type="checkbox" id="check" />
+      <br />
+      <button type="button" onclick="funksiya11();">Tesdiqlə</button>
+      <br />
+      <div class="radio">
+        <p>
+          Eyni qayda radio tipli input elementi üçün də keçməkdədir. Radio tipli
+          input elementinin də seçilib-seçilmədiyini yoxlamaq üçün checked
+          xüsusiyyətindən istifadə edirik.
+        </p>
+      </div>
+      <br />
+      <input type="radio" id="radio" /><br />
+      <button type="button" onclick="funksiya12();">Tesdiqlə</button>
+    </section>
+
+    <script src="./app/select.js"></script>
+  </body>
+</html>

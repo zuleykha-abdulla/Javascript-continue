@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--navbar start-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="parol.html">Parol</a></li>
+            <li><a href="lenght.html">Şərt operatoru</a></li>
+            <li><a href="select.html">Selekt</a></li>
+            <li><a href="reng.html">Rəng secimi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!----header bitdi-->
+    <section>
+      <div class="parol">
+        <h2>Şifrənin daxil edilməsi</h2>
+        <br />
+        <p>
+          Biz burada istifadəçidən şifrə tələb etdiyimizi fərz edək. Şifrəmiz
+          «javascript» olsun. Əgər, input elementinə daxil olunan şifrə düzgün
+          olarsa şifrənin doğru olduğunu deyək. Əgər, şifrə yalnış olarsa
+          şifrənin yalnış olduğunu istifadəçiyə bildirək.
+        </p>
+      </div>
+      <br />
+      <input type="text" id="metn2" />
+      <br />
+      <br />
+      <button onclick="funksiya4()">Daxil ol</button>
+      <br />
+      <br />
+      <input type="text" id="metn5" />
+      <br />
+      <br />
+      <button onclick="funksiya5()">Click</button>
+      <br />
+      <div class="border">
+        <h2>
+          Parol daxil olunan zaman borderin renginin cavaba gorə tenzimlenməsi
+        </h2>
+        <br />
+        <p>
+          Əgər xəbərdarlıq qutusundan istifadə etmək istəmiriksə, elə
+          öyrəndiyimiz css xüsusiyyətlərini burada tətbiq edə bilərik. Burada
+          input elementinə daxil olunmuş yazını götürüb parolun doğru
+          olubolmadığını yoxlayırıq. Əgər parol doğru olarsa, o zaman, input
+          elementinin çərçivəsi yaşıl rəngdə olmuş olacaq. Parol doğru olmasa, o
+          zaman, input elementinin çərçivəsi qırmızı rəngdə olmuş olacaq.
+        </p>
+      </div>
+      <br />
+
+      <input type="text" id="metn" />
+      <br />
+      <button type="button" onclick="funksiya();">Daxil ol</button>
+      <br />
+    </section>
+
+    <script src="./app/parol.js"></script>
+  </body>
+</html>

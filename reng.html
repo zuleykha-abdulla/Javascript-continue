@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--navbar start-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="parol.html">Parol</a></li>
+            <li><a href="lenght.html">Şərt operatoru</a></li>
+            <li><a href="select.html">Selekt</a></li>
+            <li><a href="reng.html">Rəng secimi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!----header bitdi-->
+    <section>
+      <div class="reng">
+        <h2>Rəng secimi</h2>
+        <br />
+        <p>
+          Müştərilərimiz müxtəlif zövqlərdə olduqları üçün səhifənin fon rəngini
+          dəyişmək istəyirlər. Biz də color tipli input elementindən istifadə
+          edərək onlara bu imkanı verə bilərik. Koda baxaq:
+        </p>
+      </div>
+      <br>
+      <body id="body">
+        <input type="color" id="color" onchange="color();">
+        <br>
+        <input type="color" name="" id="colorInput" >
+        <button onclick="colorBtn()">Change</button>
+        <div id="divColor"></div> 
+    </section>
+    <script src="./app/reng.js"></script>
+  </body>
+</html>

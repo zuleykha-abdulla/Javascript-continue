@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şərt operatoru</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--navbar start-->
+        <nav>
+          <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="parol.html">Parol</a></li>
+            <li><a href="lenght.html">Şərt operatoru</a></li>
+            <li><a href="select.html">Selekt</a></li>
+            <li><a href="reng.html">Rəng secimi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!----header bitdi-->
+    <section>
+      <div class="lenght">
+        <h2>Length xüsusiyyəti</h2>
+        <br />
+        <p>
+          Həm form elementləri üçün, həm də digər vəziyyətlərdə tez-tez istifadə
+          olunan xüsusiyyətlərdən biri də length xüsusiyyətidir. Bu xüsusiyyət
+          bizə mətnin uzunluğunu tapmağa imkan verir.
+          <br />
+          Nəticədə «Ok» düyməsinə basdıqda yazdığımız yazının neçə simvoldan
+          ibarət olduğu bizə bildirilir. Burada ilk value xüsusiyyəti vasitəsilə
+          input elementinə yazılmış yazını götürüb «value» dəyişəninə ötürürük.
+          Sonra isə length xüsusiyyəti vasitəsilə value.length yazaraq yazının
+          uzunluğunu «uzunluq» adlı dəyişənə ötürürük və onu ekrana çıxarırıq.
+          <br />
+          Məsələn, istifadəçidən şifrə tələb etdiyimizi düşünək. Bu şifrəmizin
+          uzunluğu isə 6 simvoldan kiçik olmamalıdır. Bu zaman bu xüsusiyyət
+          bizim köməyimizə çatır.
+          <br />Burada şərt operatoru ilə istiufadəçinin yazdığı parolun
+          uzunluğunun 6 simvoldan böyük olub-olmadığını yoxlayırıq. Əgər parol 6
+          simvoldan kiçik olarsa bunu istifadəçiyə bildiririk. Təhlükəsizlik
+          məqsədilə istifadəçinin parolunun daha güclü olması lazımdır. Bu isə
+          görəcəyimiz ən sadə tədbirlərdəndir.
+        </p>
+      </div>
+
+      <br />
+      <br />
+
+      <input type="text" id="metn3" />
+      <br />
+      <br />
+      <button onclick="funksiya3();">Daxil ol</button>
+    </section>
+    <script src="./app/lenght.js"></script>
+  </body>
+</html>
